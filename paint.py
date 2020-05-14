@@ -2,7 +2,7 @@ import codecs
 import re
 import matplotlib.pyplot as plt
 import numpy as np
-
+#包含了从文本中截取数字，和画图的一些技巧。
 f1 = codecs.open('pporesult.txt', mode='r', encoding='utf-8')  # 打开txt文件，以‘utf-8’编码读取
 line1 = f1.readline()   # 以行的形式进行读取文件
 list1 = []
